@@ -28,6 +28,7 @@ namespace BookmeFresh.Models
         [Display(Name = "Email")]
         [StringLength(50, ErrorMessage = "Email cannot be longer than 50 characters.")]
         [DataType(DataType.EmailAddress)]
+        
         public string? Email { get; set;}
 
         [Required]
